@@ -1,0 +1,139 @@
+<html>
+ <head>
+   <title>Product Landing page</title>
+    <style>
+	body{
+	    background-color:black;
+	    color:white;
+	    text-align:center;
+	}
+	@media screen and (max-width:700px){
+	body{
+	    background-color:tan;
+	}
+	}
+	@media screen and (max-width:400px){
+	body{
+	    background-color:olive;
+	}
+	}
+	header{
+	   background-color:gray;
+	}
+	img{
+	  width :10%;
+	  display:center;
+	  padding:10px;
+	}
+	.flex-container{
+	    display:flex;
+		background-color:#D3D3D3;
+	    justify-content:space-around;
+		height:130px;
+		padding:20px;
+		margin:20px 50px;
+	}
+    .flex-container #box1{
+	    background-color:	#C0C0C0;
+	    width:200px;
+        font-size: 15px;
+		margin-left:50px;
+	}
+    .flex-container #box2{
+	    background-color:#C0C0C0;
+	    width:200px;
+        font-size: 15px;
+	}
+	.flex-container #box3{
+	    background-color:#C0C0C0;
+	    width:200px;
+        font-size: 15px;
+    }
+	button{
+		padding:20px;
+		margin-top:10px;
+	}
+	h1{
+		color:green;
+	}
+	h2{
+		color:white;
+	}
+	footer{
+		color:red;
+		background-color:violet;
+		padding:20px;
+		margin:5px;
+	}
+	#nav-bar{
+		margin:0px;
+		color:violet;
+		display:flex;
+		position:center;
+		justify-content:space-around;
+		background-color:white;
+	}
+    </style>
+ </head>
+  <body>
+    <header id="header">
+	  <h1 color="rose">FL STUDIO</h1>
+       <img id="header-image" src="https://www.logolynx.com/images/logolynx/4b/4bda2f5ac70ea2e783e5c383c7d5fbb5.jpeg">
+          <nav id="nav-bar">
+		       <a class="nav-link" href="#Features" width="10px">Features</a>
+			   <a class="nav-link" href="#demo">Demo</a>
+			   <a class="nav-link" href="#price">Price</a>
+		  </nav>
+	</header>
+	
+	<section id="Features">
+	  <h1>FEATURES</h1>
+          <p>The FL Studio 12 Fruity Edition from Image-Line is a comprehensive MIDI music production 
+		     environment. It delivers a suite of music creation features including MIDI piano roll and 
+		     step sequencing, live performance mode and multi-touch support.</p>
+		   <p>FL Studio is a complete software music production environment or Digital Audio Workstation (DAW).
+		      Representing more than 20 years of innovative development it has everything you need in one package 
+		      to compose, arrange, record, edit, mix and master professional quality music.<p>
+	</section>
+	
+	<section id="demo">
+	  <h1>DEMO</h1>
+	    <video id="video" width="700" height="400" controls>
+		   <source src="FL STUDIO 12 Launch Video.mp4" type="video/mp4">
+	    </video>
+	</section>
+	
+	<section id="price">
+	   <h1>PRICE</h1>
+	    <div class="flex-container">
+		    <div id="box1">
+			     <a href="https://www.image-line.com/flstudio/">
+                <button >Select</button>
+			    <a> 
+		         <h2>FL STUDIO 20</h2>
+			</div>
+			 <div id="box2">
+			     <a href="https://splice.com/plugins/155-nexus-vst-au-by-refx">
+                 <button >Select</button>
+			     </a>	
+                 <h2>Nexus2 Plugin</h2>			 
+			  </div>
+			 <div id="box3"> 
+                 <a href=" https://www.lennardigital.com/sylenth1/">
+                 <button >Select</button>
+			  </a>
+			  <h2 >Sylenth1 Plugin</h2>
+			 </div> 
+		</div>
+	</section>
+	<section>
+	    <form id="form">
+			  <label>Email:</label>
+			  <input id="email" type="email" placeholder="Enter..." required></input>
+			  <label></label>
+			  <input id="submit" href="https://www.freecodecamp.com/email-submit" type="Submit" ></input>
+		</form>
+	  <footer>copyright 2018,Fl Studio.</footer>
+	</section>	
+  </body>	
+<html>
